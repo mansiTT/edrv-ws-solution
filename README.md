@@ -1,4 +1,4 @@
-# edrv-ws-solution
+
 # Central Station Management System 
 
 Websocket Server for simple CSMS
@@ -7,6 +7,11 @@ Websocket Server for simple CSMS
 
 1. Node Version 12+
 2. npm Version 6+
+
+### Connection URL 
+
+`node simulator -s mt11 -u ws://localhost:3002`  
+`node simulator -t status_notification -s mt11 -u ws://localhost:3002`
 
 ### Run Service 
 
